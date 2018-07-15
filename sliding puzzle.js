@@ -10,7 +10,7 @@ var piecesGroup,
     shuffledIndexArray = [];
 
 function preload() {
-    game.load.spritesheet("background", "assets/games/sliding-puzzle/bl.jpg", PIECE_WIDTH, PIECE_HEIGHT);
+    game.load.spritesheet("background", "bl.jpg", PIECE_WIDTH, PIECE_HEIGHT);
 }
 
 function create() {
